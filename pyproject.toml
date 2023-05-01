@@ -4,11 +4,11 @@ version = "0.1.0"
 description = "ChatGPT tutorial: Prompt Engineering for Developers"
 authors = ["Farzad FARID <farzy@farzy.org>"]
 readme = "README.md"
-packages = [{include = "chatgpt_prompt_eng"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 openai = "^0.27.5"
+python-dotenv = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
