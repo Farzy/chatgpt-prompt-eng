@@ -13,6 +13,7 @@ by [DeepLearning.AI](https://deeplearning.ai).
 
 ```shell
 # OpenAI key
+OPENAI_ORGANIZATION=…
 OPENAI_API_KEY=sk-…
 ```
 
