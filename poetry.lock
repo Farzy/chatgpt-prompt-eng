@@ -1997,6 +1997,18 @@ packaging = "*"
 test = ["pytest (>=6,!=7.0.0,!=7.0.1)", "pytest-cov (>=3.0.0)", "pytest-qt"]
 
 [[package]]
+name = "redlines"
+version = "0.3.0"
+description = "Compare text, and produce human-readable differences or deltas which look like track changes in Microsoft Word."
+category = "main"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "redlines-0.3.0-py3-none-any.whl", hash = "sha256:64ae4443282f65d16d7662aec2b1d6a7d5b889deeae829f93aa962506cd61a5b"},
+    {file = "redlines-0.3.0.tar.gz", hash = "sha256:03d5a7f41812c5af4fdbc1681d2ac7d916ecc0eff88c48d0fa9b09d3ed1ab771"},
+]
+
+[[package]]
 name = "requests"
 version = "2.29.0"
 description = "Python HTTP for Humans."
@@ -2408,4 +2420,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "689f1f75a4c69f1ee060466e0b3d7b9b2927fec3c5dd9436fbba8b60cd73e711"
+content-hash = "ab2063974629c63e3d57dfe159c79a07c2896414cdfc2863b946e47f285ecb75"
