@@ -1,18 +1,22 @@
-[tool.poetry]
+[project]
+authors = [
+    {name = "Farzad FARID", email = "farzy@farzy.org"},
+]
+requires-python = "<4.0,>=3.11"
+dependencies = [
+    "openai<1.0.0,>=0.27.6",
+    "python-dotenv<2.0.0,>=1.0.0",
+    "jupyter<2.0.0,>=1.0.0",
+    "redlines<1.0.0,>=0.3.0",
+    "panel<1.0.0,>=0.14.4",
+]
 name = "chatgpt-prompt-eng"
 version = "0.1.0"
 description = "ChatGPT tutorial: Prompt Engineering for Developers"
-authors = ["Farzad FARID <farzy@farzy.org>"]
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "^3.11"
-openai = "^0.27.6"
-python-dotenv = "^1.0.0"
-jupyter = "^1.0.0"
-redlines = "^0.3.0"
-panel = "^0.14.4"
+[dependency-groups]
+dev = []
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+default-groups = "all"
