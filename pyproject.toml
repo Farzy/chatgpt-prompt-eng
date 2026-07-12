@@ -5,7 +5,7 @@ authors = [
 requires-python = "<4.0,>=3.11"
 dependencies = [
     "openai>=0.27.6,<3.0.0",
-    "python-dotenv<2.0.0,>=1.0.0",
+    "python-dotenv>=1.2.2,<2.0.0",
     "jupyter<2.0.0,>=1.0.0",
     "redlines<1.0.0,>=0.3.0",
     "panel>=0.14.4,<2.0.0",
