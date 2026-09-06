@@ -17,15 +17,14 @@ OPENAI_ORGANIZATION=…
 OPENAI_API_KEY=sk-…
 ```
 
-- Run Poetry: `poetry install`
+- Install dependencies: `uv sync`
 
 **Note**: The `.env` file is ignored if the `.gitignore` file is configured correctly
 
 # Usage
 
-Either start **Jupyter Notebook** to run the notebooks, or run the Python scripts in a Poetry shell using:
+Either start **Jupyter Notebook** to run the notebooks, or run the Python scripts with uv:
 
 ```shell
-poetry shell
-python prompting.py
+uv run python prompting.py
 ```
